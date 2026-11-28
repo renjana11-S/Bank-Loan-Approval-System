@@ -1,21 +1,16 @@
-Bank Loan Approval System
+# Bank Loan Approval System
 
-A simple Rule-based Bank Loan Approval System using Python.
+A rule-based AI system that approves or rejects bank loans using clear, explainable logic - no black-box models.
 
-Rules
-- APPROVED: CIBIL Score > 700 AND Annual Income > 500000
-- REJECT: CIBIL Score < 500 OR Annual Income < 300000
-- VERIFICATION: All other cases
+## How It Works
 
-How to Run
-python Loan_Approval.py
+User enters **CIBIL Score, Annual Income & Loan Amount** → System checks IF-THEN rules → Gives instant decision.
 
-Sample Input
-Enter Applicant Name: Anu
-Enter Credit Score: 750
-Enter Annual Income: 600000
-Enter Loan Amount: 500000
+### Rules
+- **APPROVED:** CIBIL > 700 AND Income > 500000
+- **REJECT:** CIBIL < 500 OR Income < 300000
+- **VERIFICATION:** All other cases
 
-Sample Output
-Applicant Name : Anu
-Decision: APPROVED
+
+Python | Expert System | Rule-Based AI | Backward Chaining
+
